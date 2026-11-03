@@ -61,12 +61,11 @@ CMKD consists of a **frozen CLIP teacher** and a **trainable MTL student**. Its 
 
 The total objective is
 
-$$
-\mathcal{L}_{\mathrm{total}}
-= \frac{1}{T}\sum_{t=1}^{T}\mathcal{L}_{t}
-+ \beta\mathcal{L}_{\mathrm{feat}}
-+ \eta\mathcal{L}_{\mathrm{KL}}.
-$$
+<p align="center">
+  <img src="./assets/training-objective.png"
+       alt="CMKD Training Objective"
+       width="90%">
+</p>
 
 ## Results
 
