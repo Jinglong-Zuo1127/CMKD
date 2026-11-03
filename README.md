@@ -11,21 +11,14 @@ Yuhua Qian<sup>✉</sup> &nbsp;·&nbsp;
 Jixian Li &nbsp;·&nbsp; Nan Li
 </p>
 
-<p><sub>Shanxi University &nbsp;|&nbsp; * Equal contribution &nbsp;|&nbsp; ✉ Corresponding author</sub></p>
 
 <p>
 <a href="https://doi.org/10.1145/3767308.3835223"><img src="https://img.shields.io/badge/Paper-ACM%20Digital%20Library-2563EB?style=flat-square" alt="ACM paper"></a>
 <a href="https://github.com/Jinglong-Zuo1127/CMKD"><img src="https://img.shields.io/badge/Code-GitHub-1F2937?style=flat-square&logo=github" alt="GitHub source"></a>
 <a href="./assets/poster.png"><img src="https://img.shields.io/badge/Poster-View-64748B?style=flat-square" alt="Poster"></a>
-<img src="https://img.shields.io/badge/Checkpoints-coming%20soon-8B5CF6?style=flat-square" alt="Checkpoints coming soon">
 </p>
 
 </div>
-
-<p align="center">
-  <img src="./assets/motiva.png" alt="CMKD conceptual illustration: a frozen CLIP general teacher transfers representations and semantics to a multi-task student" width="100%" />
-</p>
-
 **CMKD** is a CLIP-based multi-task knowledge distillation framework. Rather than training a task-specific teacher for each downstream problem, CMKD uses **frozen, pretrained CLIP as a general teacher**, transferring visual knowledge and image–text semantics to a multi-task student through two complementary distillation paths.
 
 ## At a Glance
