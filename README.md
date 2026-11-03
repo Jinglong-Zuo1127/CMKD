@@ -89,7 +89,6 @@ The table below reserves download locations for **trained CMKD student weights**
 | **RadImageNet** | ResNet-18 |[Download](https://huggingface.co/Jinlong-Zuo1127/CMKD/blob/main/VLCS/best_model.pth)|
 | **MedMNISTv2** | ResNet-18 |[Download](https://huggingface.co/Jinlong-Zuo1127/CMKD/blob/main/Radimagenet/best_model.pth)|
 
-> **For maintainers:** Upload the final weights to [GitHub Releases](https://github.com/Jinglong-Zuo1127/CMKD/releases) or another reliable model-hosting service, then replace each *Coming soon* entry with its verified download URL. State the checkpoint format, model configuration, and evaluation command alongside the release. No download URLs are active yet.
 
 ## Getting Started
 
