@@ -84,10 +84,10 @@ The table below reserves download locations for **trained CMKD student weights**
 
 | Dataset | Student backbone | Checkpoint |
 | :--- | :--- | :--- |
-| **VLCS** | ResNet-50 | *Coming soon* |
-| **OfficeHome** | ResNet-50 | *Coming soon* |
-| **RadImageNet** | ResNet-18 | *Coming soon* |
-| **MedMNISTv2** | ResNet-18 | *Coming soon* |
+| **VLCS** | ResNet-50 |[Download](https://huggingface.co/Jinlong-Zuo1127/CMKD/blob/main/VLCS/best_model.pth)|
+| **OfficeHome** | ResNet-50 |[Download](https://huggingface.co/Jinlong-Zuo1127/CMKD/blob/main/OfficeHome/best_model.pth)|
+| **RadImageNet** | ResNet-18 |[Download](https://huggingface.co/Jinlong-Zuo1127/CMKD/blob/main/VLCS/best_model.pth)|
+| **MedMNISTv2** | ResNet-18 |[Download](https://huggingface.co/Jinlong-Zuo1127/CMKD/blob/main/Radimagenet/best_model.pth)|
 
 > **For maintainers:** Upload the final weights to [GitHub Releases](https://github.com/Jinglong-Zuo1127/CMKD/releases) or another reliable model-hosting service, then replace each *Coming soon* entry with its verified download URL. State the checkpoint format, model configuration, and evaluation command alongside the release. No download URLs are active yet.
 
