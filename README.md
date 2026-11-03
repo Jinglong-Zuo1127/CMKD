@@ -25,7 +25,7 @@ Jixian Li &nbsp;·&nbsp; Nan Li
 </div>
 
 <p align="center">
-  <img src="./assets/motivation.png" alt="CMKD conceptual illustration: a frozen CLIP general teacher transfers representations and semantics to a multi-task student" width="100%" />
+  <img src="./assets/motiva.png" alt="CMKD conceptual illustration: a frozen CLIP general teacher transfers representations and semantics to a multi-task student" width="100%" />
 </p>
 
 **CMKD** is a CLIP-based multi-task knowledge distillation framework. Rather than training a task-specific teacher for each downstream problem, CMKD uses **frozen, pretrained CLIP as a general teacher**, transferring visual knowledge and image–text semantics to a multi-task student through two complementary distillation paths.
