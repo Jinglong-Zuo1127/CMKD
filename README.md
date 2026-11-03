@@ -1,8 +1,6 @@
 <div align="center">
 
-<h1>CMKD</h1>
-
-<h3>Unleashing the Power of CLIP as a General Teacher<br>for Multi-Task Learning</h3>
+<h1>Unleashing the Power of CLIP as a General Teacher<br>for Multi-Task Learning</h1>
 
 <p><strong>ACM Multimedia 2026 (ACM MM '26)</strong></p>
 
