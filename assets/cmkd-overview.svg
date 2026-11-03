@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 326" width="1280" height="326" role="img" aria-label="A frozen CLIP teacher guides a multi-task student through representation and semantic distillation">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1630"/>
+      <stop offset="58%" stop-color="#122A4C"/>
+      <stop offset="100%" stop-color="#153A5C"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop offset="0%" stop-color="#2A87BC" stop-opacity=".28"/><stop offset="100%" stop-color="#2A87BC" stop-opacity="0"/></radialGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2DD4BF"/><stop offset="100%" stop-color="#7DD3FC"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#A78BFA"/><stop offset="100%" stop-color="#E9D5FF"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="9" stdDeviation="15" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="1280" height="326" rx="20" fill="url(#bg)"/>
+  <circle cx="1135" cy="18" r="280" fill="url(#glow)"/>
+  <circle cx="440" cy="355" r="270" fill="url(#glow)" opacity=".5"/>
+  <g stroke="#B6C9E0" stroke-width="1" opacity=".09">
+    <path d="M0 45H1280M0 105H1280M0 165H1280M0 225H1280M0 285H1280"/>
+    <path d="M85 0V326M185 0V326M285 0V326M385 0V326M485 0V326M585 0V326M685 0V326M785 0V326M885 0V326M985 0V326M1085 0V326M1185 0V326"/>
+  </g>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="56" y="72" fill="#8CE9E2" font-size="15" font-weight="700" letter-spacing="3.2">THE CORE IDEA</text>
+    <text x="56" y="129" fill="#FFFFFF" font-size="36" font-weight="700">One general teacher.</text>
+    <text x="56" y="179" fill="#FFFFFF" font-size="36" font-weight="700">Many downstream tasks.</text>
+    <text x="57" y="220" fill="#C9D8EA" font-size="17">From CLIP's visual and cross-modal knowledge</text>
+    <text x="57" y="247" fill="#C9D8EA" font-size="17">to stronger shared multi-task representations.</text>
+    <path d="M57 276H125" stroke="url(#blue)" stroke-width="5" stroke-linecap="round"/>
+    <text x="141" y="282" fill="#9EBAD4" font-size="13" letter-spacing="1.1">CMKD · ACM MM 2026</text>
+  </g>
+  <g filter="url(#shadow)" font-family="DejaVu Sans, Arial, sans-serif">
+    <rect x="588" y="79" width="187" height="177" rx="16" fill="#FFFFFF" fill-opacity=".095" stroke="#A3BDD8" stroke-opacity=".3"/>
+    <rect x="606" y="97" width="62" height="5" rx="2.5" fill="#61D6DE"/>
+    <text x="606" y="136" fill="#FFFFFF" font-size="27" font-weight="700">CLIP</text>
+    <text x="606" y="161" fill="#C2D6EB" font-size="15">General teacher</text>
+    <rect x="606" y="187" width="146" height="36" rx="9" fill="#E4FAFF" fill-opacity=".12"/>
+    <circle cx="622" cy="205" r="5" fill="#65E5D6"/>
+    <text x="637" y="211" fill="#CDE8EE" font-size="15">Frozen</text>
+
+    <rect x="810" y="79" width="208" height="177" rx="16" fill="#FFFFFF" fill-opacity=".10" stroke="#B8CBE0" stroke-opacity=".32"/>
+    <text x="832" y="119" fill="#FFFFFF" font-size="20" font-weight="700">Distillation</text>
+    <rect x="832" y="142" width="164" height="37" rx="9" fill="#39C3D5" fill-opacity=".17" stroke="#5EEAD4" stroke-opacity=".38"/>
+    <path d="M846 160h11" stroke="#5EEAD4" stroke-width="3" stroke-linecap="round"/>
+    <text x="867" y="166" fill="#D5FFFB" font-size="14">Representation</text>
+    <rect x="832" y="189" width="164" height="37" rx="9" fill="#A78BFA" fill-opacity=".14" stroke="#C4B5FD" stroke-opacity=".4"/>
+    <circle cx="850" cy="207" r="6" fill="#C4B5FD"/>
+    <text x="867" y="213" fill="#EEE5FF" font-size="14">Semantics</text>
+
+    <rect x="1054" y="79" width="181" height="177" rx="16" fill="#FFFFFF" fill-opacity=".11" stroke="#B8CBE0" stroke-opacity=".32"/>
+    <rect x="1072" y="97" width="54" height="5" rx="2.5" fill="#BEA6FB"/>
+    <text x="1072" y="137" fill="#FFFFFF" font-size="19" font-weight="700">MTL student</text>
+    <text x="1072" y="161" fill="#C7D6EA" font-size="14">Shared encoder</text>
+    <path d="M1086 193H1206" stroke="#8CAFCB" stroke-width="2" opacity=".65"/>
+    <path d="M1146 193V207" stroke="#8CAFCB" stroke-width="2" opacity=".65"/>
+    <path d="M1101 207H1192" stroke="#8CAFCB" stroke-width="2" opacity=".65"/>
+    <g fill="#B9ACFF"><circle cx="1101" cy="220" r="10"/><circle cx="1146" cy="220" r="10"/><circle cx="1191" cy="220" r="10"/></g>
+  </g>
+  <g stroke="#92C2D5" stroke-width="2" fill="none" opacity=".82">
+    <path d="M782 166h19"/><path d="M795 160l7 6-7 6" stroke-linejoin="round"/>
+    <path d="M1025 166h19"/><path d="M1038 160l7 6-7 6" stroke-linejoin="round"/>
+  </g>
+  <rect width="1278" height="324" x="1" y="1" rx="19" fill="none" stroke="#DCE7F3" stroke-opacity=".16" stroke-width="2"/>
+</svg>
